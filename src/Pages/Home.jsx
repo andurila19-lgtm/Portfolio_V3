@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, memo } from "react"
 import { Helmet } from "react-helmet-async"
-import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucide-react"
+import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles, Youtube } from "lucide-react"
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -24,7 +24,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Full Stack
         </span>
       </span>
       <br />
@@ -76,12 +76,13 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
+const WORDS = ["Web Developer & Cyber Security Student", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/andurila19-lgtm", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/anduril-ahmad-silvera-burhani-837492387/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/rm_andurilahmad", label: "Instagram Profile" },
+  { icon: Youtube, link: "https://www.youtube.com/@andrl_3?si=0lEyjD-sr8VxXNsH", label: "YouTube Profile" }
 ];
 
 const Home = () => {
@@ -140,25 +141,27 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <title>Anduril Ahmad — Full Stack Developer</title>
+        <meta name="description" content="Website resmi Anduril Ahmad, Full Stack Developer & Cyber Security Student. Saya berfokus pada pengembangan aplikasi aman dan skalabel." />
      <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
-        <meta property="og:url" content="https://ekizr.com" />
+        <link rel="canonical" href="https://anduril.web.id" />
+        <meta property="og:title" content="Anduril Ahmad — Full Stack Developer" />
+        <meta property="og:description" content="Website resmi dan portofolio Anduril Ahmad, Full Stack Developer." />
+        <meta property="og:url" content="https://anduril.web.id" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eki Zulfar Rachman",
-            "jobTitle": "Frontend Developer",
-            "url": "https://ekizr.com",
+            "name": "Anduril Ahmad",
+            "jobTitle": "Full Stack Developer",
+            "url": "https://anduril.web.id",
             "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
+              "https://github.com/andurila19-lgtm",
+              "https://www.linkedin.com/in/anduril-ahmad-silvera-burhani-837492387/",
+              "https://www.instagram.com/rm_andurilahmad",
+              "https://www.tiktok.com/@amad.ddd",
+              "https://www.youtube.com/@andrl_3?si=0lEyjD-sr8VxXNsH"
             ]
           }
         `}</script>
@@ -188,7 +191,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                    Menciptakan solusi digital yang inovatif, aman, dan fungsional melalui pengembangan Fullstack serta penerapan Cyber Security.
                   </p>
 
                   {/* Tech Stack */}
