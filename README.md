@@ -35,7 +35,7 @@ Follow these steps to run the project locally:
 ### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/andurila19-lgtm/Portofolio_V5.git
+git clone https://github.com/andurila19-lgtm/Portfolio_V3.git
 cd Portofolio_V5
 ```
 
@@ -128,7 +128,7 @@ If you have any questions or need help with the setup, feel free to reach out\!
 **Anduril Ahmad Silvera Burhani**
 
   - Website: [https://anduril.web.id/](https://anduril.web.id/)
-  - GitHub: [andurila19-lgtm](https://github.com/andurila19-lgtm)
+  - GitHub: [andurila19-lgtm](https://github.com/andurila19-lgtm/Portfolio_V3)
 
 -----
 
