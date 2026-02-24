@@ -133,6 +133,7 @@ If you have any questions or need help with the setup, feel free to reach out\!
 -----
 
 Thanks to
+- https://github.com/EkiZR/Portofolio_V5
 - https://lottiefiles.com/free-animation/coding-NWhbxMOVgP
 - Claude
 - Antigravity AI
